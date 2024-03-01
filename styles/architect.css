@@ -226,6 +226,53 @@ img {
 }
 
 
+/* Fact Section */
+.fact{
+    margin: 150px auto;
+}
+.fact-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.fact-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+.facts{
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    justify-content: space-around;
+}
+
+.fact-card {
+    padding: 40px 30px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.fact-card>img {
+    width: 50px;
+}
+
+.fact-card-title {
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.fact-card-description {
+    color:#727272;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 
 
 
@@ -288,34 +335,37 @@ img {
 
 
     /* Feature section */
-    .feature{
+    .feature {
         flex-direction: column;
         padding: 20px;
-        margin:  auto;
+        margin: auto;
         gap: 50px;
     }
+
     .features {
         width: 100%;
     }
-    
+
     .feature-img {
         width: 100%;
     }
 
-    .feature-title{
+    .feature-title {
         font-size: 35px;
     }
-    .feature-description{
+
+    .feature-description {
         font-size: 15px;
     }
+
     .card-title {
         font-size: 18px;
     }
-    
+
     .card-description {
         font-size: 15px;
     }
-    
+
     .experience {
         position: absolute;
         bottom: -30px;
@@ -326,14 +376,39 @@ img {
         color: white;
         text-align: center;
     }
+
     .experience>h4 {
         font-size: 45px;
         font-weight: 700;
     }
-    
+
     .experience>p {
         font-size: 20px;
         font-weight: 500;
     }
-    
+
+
+    /* fact section */
+
+    .fact{
+        padding: 20px;
+        margin: 80px auto;
+    }
+    .fact-title {
+        font-size: 35px;
+    }
+    .fact-description {
+        margin-bottom: 50px;
+    }
+    .facts{
+        grid-template-columns: repeat(1, 250px);
+        gap: 20px;
+    }
+    .fact-card {
+        padding:  30px;
+        border: 1px solid #FF900E;
+        border-radius: 8px;
+        text-align: center;
+    }
+
 }
