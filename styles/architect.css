@@ -285,4 +285,55 @@ img {
     .team-caption {
         width: 100%;
     }
+
+
+    /* Feature section */
+    .feature{
+        flex-direction: column;
+        padding: 20px;
+        margin:  auto;
+        gap: 50px;
+    }
+    .features {
+        width: 100%;
+    }
+    
+    .feature-img {
+        width: 100%;
+    }
+
+    .feature-title{
+        font-size: 35px;
+    }
+    .feature-description{
+        font-size: 15px;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+    
+    .card-description {
+        font-size: 15px;
+    }
+    
+    .experience {
+        position: absolute;
+        bottom: -30px;
+        right: 80px;
+        padding: 20px 30px;
+        border-radius: 8px;
+        background: #FF900E;
+        color: white;
+        text-align: center;
+    }
+    .experience>h4 {
+        font-size: 45px;
+        font-weight: 700;
+    }
+    
+    .experience>p {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
 }
