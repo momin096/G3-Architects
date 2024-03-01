@@ -76,13 +76,14 @@ img {
 
 
 /* Banner Section */
-.banner{
+.banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 40px;
 }
+
 .banner-title {
     margin-top: 60px;
     color: #131313;
@@ -99,30 +100,95 @@ img {
     text-align: center;
 }
 
+/* Feature section */
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 50px auto;
+    padding: 80px;
+}
+
+.feature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 50%;
+}
+
+.feature-caption {
+    width: 50%;
+}
+
+.feature-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.quick {
+    color: #727272;
+    font-weight: 500;
+}
+
+.feature-caption .f {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.feature-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
 
 @media screen and (max-width: 576px) {
-    .btn-primary{
+    .btn-primary {
         font-size: 18px;
     }
-    .nav{
+
+    .nav {
         padding: 20px;
         flex-direction: column;
         gap: 30px;
     }
 
-    .hero-items{
+    .hero-items {
         margin-right: 30px;
         font-size: 16px;
     }
 
     /* banner */
-    .banner{
+    .banner {
         padding: 20px;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 50px;
     }
-    .banner-description{
+
+    .banner-description {
         font-size: 15px;
+    }
+
+    /* feature section */
+
+    .feature{
+        flex-direction: column-reverse;
+        margin: 50px auto;
+        padding: 20px;
+    }
+    .feature-title{
+        font-size: 40px;
+    }
+
+    .feature-img{
+        width: 100%;
+        gap: 10px;
+    }
+    .feature-caption{
+        width: 100%;
     }
 }
